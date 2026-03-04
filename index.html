@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AR Viewer</title>
+</head>
+<body style="margin:0; background-color:white;">
+
+<a id="ar-link"
+   rel="ar"
+   href="model.usdz">
+    <img src="placeholder.png" style="display:none;">
+</a>
+
+<script>
+    window.onload = function() {
+        document.getElementById("ar-link").click();
+    };
+</script>
+
+</body>
+</html>
